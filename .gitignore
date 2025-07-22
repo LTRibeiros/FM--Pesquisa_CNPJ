@@ -1,0 +1,32 @@
+# Arquivos Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+*.log
+
+# Ambiente virtual
+venv/
+.env/
+env/
+.python-version
+
+# IDE (PyCharm, VSCode)
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+
+# Arquivos de configuração e dados
+.DS_Store
+*.sqlite3
+*.db
+
+# Arquivos sensíveis
+.env
+secrets.py
+*.key

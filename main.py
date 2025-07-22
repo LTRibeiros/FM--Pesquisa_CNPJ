@@ -12,7 +12,7 @@ url = f"https://www.google.com/maps/search/{query}"
 
 #abrir o navegador
 navegador = webdriver.Chrome()
-
+navegador.headless = True
 navegador.get(url)
 #tela cheia
 navegador.fullscreen_window()
